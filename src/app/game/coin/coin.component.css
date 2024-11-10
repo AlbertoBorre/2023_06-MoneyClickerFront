@@ -1,0 +1,35 @@
+#cajaMoneda{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+}
+
+#cantidadMonedas{
+    padding-top: 16%;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+#monedasPorSegundo{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+#botonMoneda{
+    text-decoration: none;
+    background: none;
+    border-radius: 50%;
+    border: none;
+    transition: .4s all;
+}
+
+#botonMoneda:active{
+    transform: scale(1.06);
+}
+
+#moneda{
+    width: 150px;
+    height: 150px;
+}

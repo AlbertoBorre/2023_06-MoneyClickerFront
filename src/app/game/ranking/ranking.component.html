@@ -1,0 +1,16 @@
+<table>
+    <thead>
+        <tr>
+            <th>Posicion</th>
+            <th>Nombre</th>
+            <th>Monedas</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let user of topUsers; let i = index">
+            <td>{{ i + 1 }}</td>
+            <td>{{ user.name }}</td>
+            <td>{{ user.coins }}</td>
+        </tr>
+    </tbody>
+</table>

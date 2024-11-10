@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+
+body{
+    font-family: 'Rubik', Georgia, 'Times New Roman', Times, serif;
+}
+
+main{
+    display: flex;
+    width: 100%;
+    height: 98vh;
+    background-image: url("../assets/images/fondo.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+
+
+/*MOVIL*/
+@media all and (max-width: 480px){
+
+}
+
+/*TABLET*/
+@media all and (min-width: 481px) and (max-width: 768px){
+    
+}
+
+/*PC*/
+@media all and (min-width: 769px){
+
+}

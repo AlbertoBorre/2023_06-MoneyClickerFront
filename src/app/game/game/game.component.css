@@ -1,0 +1,29 @@
+#game {
+    width: 100vh;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#boton {
+    position: fixed;
+    top: 2rem;
+    left: 10rem;
+    transform: translateX(-50%);
+}
+
+#monedas {
+    padding-left: 25%;
+    width: 50%;
+}
+
+@media (max-width: 784px) {
+
+    #game{
+        flex-direction: column;
+    }
+
+}
+
+

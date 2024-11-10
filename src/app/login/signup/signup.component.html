@@ -1,0 +1,21 @@
+<div class="login-box">
+    <div class="lb-header">
+      <a routerLink="/login" class="active" id="login-box-link">Login</a>
+      <a routerLink="/signup" id="signup-box-link">Sign up</a>
+    </div>
+    
+    <form class="email-signup">
+      <div class="u-form-group">
+        <input [(ngModel)]="this.name" name="name" type="text" placeholder="Username" />
+      </div>
+      <div class="u-form-group">
+        <input [(ngModel)]="this.email" name="email" type="email" placeholder="Email" />
+      </div>
+      <div class="u-form-group">
+        <input [(ngModel)]="this.pass" name="pass" type="password" placeholder="Password" />
+      </div>
+      <div class="u-form-group">
+        <button (click)="signup()">Sign up</button>
+      </div>
+    </form>
+  </div>
